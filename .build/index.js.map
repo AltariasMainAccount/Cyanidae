@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../index.ts"],
-  "sourcesContent": ["import * as cyanidae from './Classes'\n\nimport * as path from 'path';\n\n// Declare some commands\n\nlet console_1 = new cyanidae.Console({\n    SessionName: \"DEFAULT\",\n    HeaderString: \"Cyanidae Default Console\"\n});\n\nconsole_1.InitializeWithCustom(path.join(__dirname, \"./Commands\"));"],
-  "mappings": ";;;;;;;;;;;;;;;;;;AAAA,eAA0B;AAE1B,WAAsB;AAItB,IAAI,YAAY,IAAI,SAAS,QAAQ;AAAA,EACjC,aAAa;AAAA,EACb,cAAc;AAAA;AAGlB,UAAU,qBAAqB,KAAK,KAAK,WAAW;",
-  "names": []
-}
