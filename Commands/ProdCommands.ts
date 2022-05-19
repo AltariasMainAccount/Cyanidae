@@ -7,9 +7,9 @@ export default {
             cmd: "changelog",
             callback: function (con: consoon.ConsoleLogger) {
                 con.Write(`
-Consoon Production Commands Example
+Cyanidae Production Commands Example
 
--> Consoon has reached first Alpha build. (Alpha 1)
+-> Cyanidae has reached first Alpha build. (Alpha 1)
     
     ->> Features include being able to write commands, run commands
         and having different command types to work with.
@@ -35,7 +35,7 @@ Consoon Production Commands Example
         developers can make use of every information that they
         want to recieve. 
 
-Thank you for using the Consoon module.
+Thank you for using Cyanidae.
     `, "debug")
             },
             help: {

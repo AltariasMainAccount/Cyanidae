@@ -16,11 +16,11 @@ var __reExport = (target, module2, desc) => {
 var __toModule = (module2) => {
   return __reExport(__markAsModule(__defProp(module2 != null ? __create(__getProtoOf(module2)) : {}, "default", module2 && module2.__esModule && "default" in module2 ? { get: () => module2.default, enumerable: true } : { value: module2, enumerable: true })), module2);
 };
-var consoon = __toModule(require("./Classes"));
+var cyanidae = __toModule(require("./Classes"));
 var path = __toModule(require("path"));
-let console_1 = new consoon.Console({
+let console_1 = new cyanidae.Console({
   SessionName: "DEFAULT",
-  HeaderString: "Consoon Default Console"
+  HeaderString: "Cyanidae Default Console"
 });
 console_1.InitializeWithCustom(path.join(__dirname, "./Commands"));
 //# sourceMappingURL=index.js.map
