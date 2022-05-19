@@ -1,0 +1,11 @@
+{
+    "paths": {
+        "sessionPath": "../../Sessions"
+    },
+    "defaultColorSet": {
+        "warn": [255, 255, 0],
+        "err": [255, 0, 0],
+        "info": [90, 60, 90],
+        "debug": [0, 255, 255]
+    }
+}

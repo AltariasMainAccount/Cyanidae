@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../Commands/InfoCommands.ts"],
+  "sourcesContent": ["import * as consoon from '../Classes';\n\nexport default {\n    CommandsHidden: false,\n    Commands: [\n        new consoon.Command({\n            cmd: \"joke\",\n            callback: function (con: consoon.ConsoleLogger) {\n                console.log(\"You know the rules, and so do I.\");\n            },\n            help: {\n                CommandName: \"joke\",\n                CommandDescription: \"You know the rules, and so do I.\",\n                CommandUsage: \"joke\"\n            }\n        }),\n    ]\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA,cAAyB;AAEzB,IAAO,uBAAQ;AAAA,EACX,gBAAgB;AAAA,EAChB,UAAU;AAAA,IACN,IAAI,QAAQ,QAAQ;AAAA,MAChB,KAAK;AAAA,MACL,UAAU,SAAU,KAA4B;AAC5C,gBAAQ,IAAI;AAAA;AAAA,MAEhB,MAAM;AAAA,QACF,aAAa;AAAA,QACb,oBAAoB;AAAA,QACpB,cAAc;AAAA;AAAA;AAAA;AAAA;",
+  "names": []
+}
